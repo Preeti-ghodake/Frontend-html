@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th,
+        td {
+            padding: 20px;
+            height: 10px;
+            width: 50px;
+        }
+
+        th {
+            background-color: #ccc;
+            /* color: white; */
+        }
+    </style>
+</head>
+<body>
+    <h3>Tables</h3>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td rowspan="3">1</td>
+            <td rowspan="3">david</td>
+            <td>Maths</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Physics</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Computers</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td rowspan="3">2</td>
+            <td rowspan="3">Alexa</td>
+            <td>Maths</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Physics</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>Compters</td>
+            <td>90</td>
+        </tr>
+    </table>
+</body>
+</html>

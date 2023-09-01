@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th,
+        td {
+            padding: 10px;
+        }
+
+        th {
+            background-color: #ccc;
+            /* color: white; */
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Tables</h3>
+    <table>
+        <tr>
+            <th rowspan="2" colspan="2">CI</th>
+            <th rowspan="2">All Gender</th>
+            <th colspan="2">By Gender</th>
+        </tr>  
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <th>Male</th>
+                        <th>Female</th>
+                       </tr>
+                    <tr>
+                        <td>321456</td>
+                        <td>254789</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <th>Rural</th>
+            <td>123654</td>
+            <td>258796</td>
+            <td>254789</td>
+        </tr>
+    </table>
+</body>
+
+</html>
