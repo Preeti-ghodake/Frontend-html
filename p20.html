@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 100%;
+            overflow-x: hidden;
+            display: flex;
+            justify-content: center;
+        }
+        form div {
+            width: 600px;
+            border: 1px solid #222;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" method="post">
+        <h3>Student Registration Form</h3>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter full name" required>
+        </div>
+        <div>
+            <label for="father">Father's Name:</label>
+            <input type="text" name="father" id="father" required>
+        </div>
+        <div>
+            <label for="mother">Mother's Name:</label>
+            <input type="text" name="mather" id="mather" required>
+        </div>
+        <div>
+            <label for="phone">Phone Number:</label>
+            <input type="number" name="phone" id="phone" placeholder="99xxx-xxxxx" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="sample@gmail.com" required>
+        </div>
+
+        <div>
+            <label for="gender">Gender</label>
+            <div>
+                <input type="radio" name="gender" id="" value="male" required> Male
+                <input type="radio" name="gender" id="" value="female" required> Female
+                <input type="radio" name="gender" id="" value="others" required> Others
+            </div>
+        </div>
+        <div>
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" name="dob" id="" required>
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <textarea name="" id="" cols="30" rows="5" required></textarea>
+        </div>
+        <div>
+            <label for="blood">Blood group</label>
+            <select name="blood" id="">
+                <option value="null">Select</option>
+                <option value="a+">A+</option>
+                <option value="b+">B+</option>
+                <option value="ab+">AB+</option>
+                <option value="ab-">AB-</option>
+                <option value="o+">O+</option>
+            </select>
+        </div>
+        <div>
+            <label for="dept">Department</label>
+            <div>
+                <input type="radio" name="dept" id="" value="cse" required>CSE
+                <input type="radio" name="dept" id="" value="eee" required>EEE
+                <input type="radio" name="dept" id="" value="bca" required>BCA
+            </div>
+        </div>
+        <div>
+            <label for="course">Course</label>
+            <div>
+                <input type="checkbox" name="c1" id="" value="c" required> C
+            <input type="checkbox" name="c2" id="" value="c++" required> C++
+            <input type="checkbox" name="c3" id="" value="js" required> JS
+            <input type="checkbox" name="c4" id="" value="ds" required>DS
+            <input type="checkbox" name="c5" id="" value="ai" required> AI
+            </div>
+        </div>
+        <div>
+            <label for="file">File</label>
+            <input type="file" name="file" id="" required>
+        </div>
+        <div>
+            <input type="submit">
+            <input type="reset">
+        </div>
+    </form>
+
+</body>
+
+</html>
+
+
